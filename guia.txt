@@ -9,3 +9,10 @@ Cando se recibe unha mensaxe On, se a bombilla está apagada se acenderá e impr
 Cando se recibe unha mensaxe Off, se a bombilla está acendida se apagará e imprimirá a mensaxe en pantalla "Apagando bombilla"
 
 Co cliente de mqtt envía mensaxes de on e off a bombila.
+
+
+Para probar la ejecución, por terminal:
+
+mosquitto_pub -h <IP_alojado_mosquitto_server> -p 1884 -u "dispositivo" -P "abc123." -t "/oficina/luz1" -m "Off"
+
+mosquitto_pub -h <IP_alojado_mosquitto_server> -p 1884 -u "dispositivo" -P "abc123." -t "/oficina/luz1" -m "Off"
