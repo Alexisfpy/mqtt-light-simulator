@@ -1,0 +1,11 @@
+Tarea - 81
+
+Co servidor de MQTT xa creado anteriormente:
+
+- Crea subscriptor en Python para o topic /oficina/luz1 co que simularas o funcionamento dunha bombilla
+
+Cando se recibe unha mensaxe On, se a bombilla está apagada se acenderá e imprimirá a mensaxe en pantalla "Encendendo bombilla"
+
+Cando se recibe unha mensaxe Off, se a bombilla está acendida se apagará e imprimirá a mensaxe en pantalla "Apagando bombilla"
+
+Co cliente de mqtt envía mensaxes de on e off a bombila.
